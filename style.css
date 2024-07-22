@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    z-index: 10;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.header nav{
+    padding: 10px 20px;
+}
+
+.header-menu{
+    display: flex;
+}
+
+.nav nav{
+    padding: 10px 20px;
+}
+
+.more{
+    position: relative;
+}
+.nav {
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    top: 48px;
+    color: rgb(210, 210, 210);
+    background-color: rgb(15, 15, 15);
+    opacity: 0;
+
+}
+
+.more:hover .nav{
+    opacity:1;
+}
+
+.img-header img{
+    width: 100%;
+}
+
+.name{
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.792);
+    padding-inline: 20px;
+    font-size: 20px;
+
+}
+
+.text{
+    font-family: "Lato", sans-serif;
+}
+
+#contact{
+    text-align: center;
+    padding: 0 30%;
+}
+
+.third{
+    margin-top: 50px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.third-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.third-item p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.third-item img{
+    width: 60%;
+}
+
+#tour{
+    margin-top: 50px;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+#tour h2{
+    text-align: center;
+}
+
+.tour-name{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tour-item{
+    max-width: 700px;
+  margin: 20px auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+}
+.tour-item nav {
+    padding: 10px ;
+    border-bottom: 1px solid #c6c3c36b;
+}
+.sold-out{
+    display: inline-block;
+    color:aliceblue;
+    background-color: rgb(220, 54, 54);
+    margin-left: 16px;
+    padding: 5px;
+}
+.sold-line{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50%;
+
+}
+.item-last {
+    position: relative;
+}
+
+.tour-items{
+    display: flex;
+    max-width: 700px;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.tour-book {
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+}
+
+.tour-book img {
+    width: 100%;
+}
+.token{
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+.token:hover {
+    background-color: #d2d1d1;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-section{
+    margin-top: 20px;
+}
+.contact-section h2{
+    padding-top: 30px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+p.contact-sub-heading {
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+
+.map img{
+    width: 100%;
+}
+.footer-img{
+    margin-bottom: 100px;
+    text-align: center !important;
+    margin-top: 70px;
+    opacity: 0.5;
+}
+.contact {
+    max-width: 700px;
+    margin: 70px auto;
+    display: flex;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-weight: 500;
+}
+.contact-info p {
+    font-size: 18px;
+     margin: 4px 0px;
+}
+.contact-info p i{
+    margin-right: 10px;
+}
+.contact-form {
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+input {
+        padding: 8px 4px;
+        font-size: 16px;
+}
+.contact-input-row1 {
+    margin-bottom: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-half {
+    width: 49%;
+}
+.col-half input{
+    width: 100%;
+}
+.col-full input{
+    width: 100%;
+}
+.sub-btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+}
+.sub-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
